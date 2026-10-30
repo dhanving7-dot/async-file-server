@@ -1,0 +1,9 @@
+# Keep LF everywhere: the C code, Makefile and shell scripts are built and run in WSL/Linux.
+* text=auto eol=lf
+
+# Windows-only scripts can use CRLF.
+*.ps1 text eol=crlf
+
+*.pdf binary
+*.png binary
+*.woff2 binary

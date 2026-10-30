@@ -1,0 +1,19 @@
+{
+  "name": "afs-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HTTP/WebSocket bridge to the Async File Server C backend (TCP). Performs no file I/O itself.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node test/bridge.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

@@ -1,0 +1,8 @@
+node_modules/
+frontend/dist/
+backend/build/
+backend/server
+backend/client
+backend/logs/*.log
+*.o
+.afs-tmp-*
